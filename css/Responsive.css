@@ -1,16 +1,25 @@
 @media (max-width:576px) and (min-width:0) {
+  header
+  {
+box-shadow: 0px 0px 10px black;
+  }
     header h3
     {
-        font-size: 35px;
+        font-size: 25px;
     }
     header #bar
     {
-        font-size: 30px !important;
+        font-size: 20px !important;
+    }
+    .headi
+    {
+      padding-top: 0px !important;
+      margin-top: 0px !important;
     }
     .nav ul
     {
         position: fixed;
-        top: 58px;
+        top: 47px;
         left: -100%;
         display: flex;
         flex-direction: column;
@@ -92,13 +101,33 @@ line-height: 100px;
   }
   .horizontal-box
   {
-    width:303px;
+    width:323px;
+    height: 468px !important;
+    padding: 20px;
+  }
+  .imgex{
+    width: 70px !important;
+    margin-top: 20px;
+  }
+  .years
+  {
+    font-size: 26px !important;
+    margin-left: 12px !important;
+
   }
   .yearex {
     font-size: 70px !important;
     -webkit-text-stroke: 3px black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  #ex-box
+  {
+    margin-left: 10px !important;
+  }
+  .vertical-box {
+    height: 593px !important;
+ 
+}
 }
 @media (max-width:992px) and (min-width:577px) {
     .nav ul
