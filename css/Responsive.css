@@ -1,0 +1,167 @@
+@media (max-width:576px) and (min-width:0) {
+    header h3
+    {
+        font-size: 35px;
+    }
+    header #bar
+    {
+        font-size: 30px !important;
+    }
+    .nav ul
+    {
+        position: fixed;
+        top: 58px;
+        left: -100%;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        width: 50%;
+        height:calc(100% - 73px);
+        padding: 40px;
+        transition: 300ms;
+
+    }
+
+    .contact
+    {
+        display: none;
+    }
+    .first-page .left h1
+    {
+font-size: 60px;
+line-height: 100px;
+    }
+    .first-page .left h1 span
+    {
+        font-size: 60px;
+    }
+    .first-page .left button
+
+    {
+        margin-top: 13px;
+        margin-bottom: 20px;
+    }
+   .first-page .left p
+    {
+        font-size: 20px;
+    }
+    .first-page .left
+    {
+        padding: 10px;
+    }
+    .first-page{
+        padding-bottom: 50px;
+    }
+    .first-page .right .image-box
+    {
+        width: 100%;
+        margin-left: 0px;
+        height: 550px;
+    }
+  .truck
+  {
+    left: -100px !important;
+   height: 480px !important;
+  }
+  .first-image
+  {
+    width: 440px;
+  }
+  .first-image img
+  {
+    width: 440px;
+  }
+  .image-overlay
+  {
+    width: 440px;
+  }
+  .chose-section
+  {
+    width: 140px;
+    height: 120px;
+  }
+  .chose-section img
+  {
+    width: 140px;
+    height:110px;
+  }
+  .container h1
+  {
+    margin-top:10px !important;
+    margin-bottom:10px !important;
+  }
+  .horizontal-box
+  {
+    width:303px;
+  }
+  .yearex {
+    font-size: 70px !important;
+    -webkit-text-stroke: 3px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+@media (max-width:992px) and (min-width:577px) {
+    .nav ul
+    {
+        position: fixed;
+        top: 50px;
+        left: -100%;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        width: 50%;
+        height: 100%;
+        padding: 40px;
+        transition: 300ms;
+
+    }
+    .contact
+    {
+        display: none;
+    }
+    .first-page .right
+    {
+        margin-left: 100px;
+    }
+    .first-page{
+        padding-bottom: 50px;
+    }
+    .first-image
+    {
+      width: 340px;
+    }
+    .first-image img
+    {
+      width: 100%;
+    }
+    .image-overlay
+    {
+      width: 100%;
+    }
+.first-image:hover .image-overlay
+{
+    bottom: -200px;
+}
+.third-image
+{
+    flex-grow: 1;
+}
+
+@media (max-width:1300px) and (min-width:577px) {
+    .first-image
+    {
+      width: 330px;
+    }
+    .first-image img
+    {
+      width: 330px;
+    }
+    .image-overlay
+    {
+      width: 330px;
+    }
+    .first-image:hover .image-overlay
+{
+    bottom: -200px;
+}
+}

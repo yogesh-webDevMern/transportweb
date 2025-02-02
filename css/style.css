@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: #1E8FD0;
+    width: 100%;
+    color: white;
+    top: -1px;
+    z-index: 55555;
+
+}
+
+header h3 {
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.left {
+    margin-left: 0px;
+    cursor: grab;
+    user-select: none;
+}
+
+.first-page {
+    background-color: #1E8FD0;
+}
+
+.first-page .left h1 span {
+    font-size: 130px;
+    color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+}
+
+.first-page .left h1 {
+    font-size: 130px;
+    color: white;
+    /* letter-spacing: -8px; */
+    padding-top: 30px;
+
+}
+
+.first-page .left p {
+    color: white;
+    font-size: 23px;
+    margin-top: 30px;
+
+}
+
+.first-page .left button {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-bottom: 90px;
+    padding: 10px;
+    transition: 400ms;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.first-page .left button:hover {
+    background-color: rgb(255, 166, 0);
+}
+
+.image-box {
+    width: 400px;
+    height: 630px;
+    margin-left: 50px;
+    background: url('../images/bg2.jpg');
+    background-size: cover;
+    animation: move 10s linear infinite;
+    cursor: grab;
+}
+
+@keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 0px -630px;
+    }
+}
+
+.truck {
+    top: 50px;
+    left: -250px;
+    animation: speed 3s linear infinite;
+    cursor: grab;
+    user-select: none;
+
+}
+
+.first-page-container {
+    gap: 100px;
+}
+
+@keyframes speed {
+    0% {
+        top: 50px;
+        left: -250px;
+    }
+
+    50% {
+        top: 10px;
+        left: -250px;
+    }
+
+    100% {
+        top: 50px;
+        left: -250px;
+    }
+}
+
+.second-page {
+    width: 100%;
+    background-color:#F2FAFF;
+}
+
+.open-menu {
+    left: 0px !important;
+}
+
+.overflow {
+    overflow-y: hidden;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.667);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+    transition: 400ms;
+}
+
+.show-overlay {
+    opacity: 1 !important;
+    visibility: visible !important;
+
+}
+.what-do
+{
+    font-size: 50px;
+    letter-spacing: -1px;
+    color: orange;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #1E8FD0;
+}
+.first-image
+{
+   width: 400px;
+   height: 500px;
+}
+.image-overlay
+{
+    width:400px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.653);
+    position: absolute;
+    left: 0px;
+    bottom: -500px;
+    color: white;
+    transition: 400ms;
+    opacity: 0;
+    visibility: hidden;
+    padding: 20px;
+}
+.first-image:hover .image-overlay
+{
+    bottom: -250px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.second-image
+{
+    width: 400px;
+    height: 500px;
+}
+.third-image
+{
+    width: 400px;
+    height: 500px;
+}
+.third-page h1
+{
+    color: orange;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #1E8FD0;
+}
+.chose-section
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.chose-section img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.vertical-box
+{
+    width: 300px;
+    height: 500px;
+    background-color: #1E8FD0;
+}
+.horizontal-box
+{
+    width: 1200px;
+    height: 400px;
+background-image: url('../images/waves.c2c27eb5771e0461.png');
+    position: absolute;
+    top:60px;
+    left:60px;
+    box-shadow: 0px 0px 20px skyblue;
+    /* background-color: white; */
+}
+.yearex
+{
+    font-size: 150px;
+    -webkit-text-stroke: 10px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-fill-color: url("/images/1.jpg");
+}
