@@ -16,7 +16,7 @@
         flex-direction: column;
         background-color: black;
         width: 50%;
-        height:calc(100vh - 73px);
+        height:100%;
         padding: 40px;
         transition: 300ms;
 
