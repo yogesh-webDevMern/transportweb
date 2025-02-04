@@ -247,3 +247,19 @@ background-image: url('../images/waves.c2c27eb5771e0461.png');
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     -webkit-text-fill-color: url("/images/1.jpg");
 }
+.hero {
+    background: url('https://source.unsplash.com/1600x900/?transport,road') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.contact-info i {
+    font-size: 24px;
+    color: #007bff;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
