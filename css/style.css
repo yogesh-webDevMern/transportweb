@@ -263,3 +263,27 @@ a{
     text-decoration: none;
     color: inherit;
 }
+.box-form
+{
+    width:30vw;
+    height: 75vh;
+    background-color: white;
+ 
+    position: absolute;
+    border-radius: 10px;
+
+  display: none;
+    padding: 50px;
+    z-index: 99999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.iconmost
+{
+    position: relative;
+   top: -30px;
+   font-size: 20px;
+   left: 100%;
+   cursor: pointer;
+}

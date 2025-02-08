@@ -128,6 +128,20 @@ line-height: 100px;
     height: 593px !important;
  
 }
+.box-form
+{
+    width:88vw;
+    height: 75vh;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    padding: 50px;
+    z-index: 99999;
+    left: 50%;
+    top: 33%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
 }
 @media (max-width:992px) and (min-width:577px) {
     .nav ul
